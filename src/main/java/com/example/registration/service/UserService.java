@@ -1,9 +1,10 @@
 package com.example.registration.service;
 
-import com.example.registration.entity.User;
-import com.example.registration.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import com.example.registration.entity.User;
+import com.example.registration.repository.UserRepository;
 
 @Service
 public class UserService {
